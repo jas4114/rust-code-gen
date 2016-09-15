@@ -36,6 +36,7 @@ html, body{
 }
 
 #content{
+  top:80px;
   position:absoulute;
   width:100%;
   height:auto;
