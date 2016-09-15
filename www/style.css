@@ -52,3 +52,18 @@ html, body{
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
+
+a{
+  text-decoration:inherit;
+  color:inherit;
+}
+
+.btn{
+    border: 2px solid #ce422b;
+    padding:10px 40px;
+    background: #fff;
+    font-weight: bold;
+    transition:background,color  .4s;
+    margin: 10px auto;
+    color:#ce422b;
+}
