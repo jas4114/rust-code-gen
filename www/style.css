@@ -34,3 +34,11 @@ html, body{
   color: #ce422b;
   width: 100%;  
 }
+
+#content{
+  margin:auto;
+  margin-top:70px;
+  background:#fff;
+   border:1px solid #cfcfcf;
+   width:80%;
+}
