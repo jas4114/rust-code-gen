@@ -78,5 +78,6 @@ a{
   #header{
     font-size:16px;
     background: url("https://jas4114.github.io/rust-pin-gen/www/rust-pin-logo-100x.png") no-repeat 2% center #fff;
+    background-size: 60px 60px;
   }
 }
