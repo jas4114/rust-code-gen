@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TabPane fx:id="tabs" prefHeight="400.0" prefWidth="400.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <tabs>
+        <Tab fx:id="GenerateTab" text="Generate">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <Label fx:id="GenLabel" alignment="CENTER" layoutY="6.0" prefWidth="372.0" styleClass="contentLabel" text="Click Generate to create a new pin." textAlignment="LEFT" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0">
+                  <font>
+                    <Font name="System Bold" size="16.0" />
+                  </font>
+                </Label>
+                <TextField id="GenTF" editable="false" layoutY="79.0" prefHeight="33.0" prefWidth="372.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="15.0" />
+                <HBox alignment="CENTER" layoutY="146.0" prefHeight="33.0" prefWidth="372.0" spacing="15.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="15.0">
+                  <children>
+                    <Button id="GenPinBtn" mnemonicParsing="false" prefWidth="114.0" styleClass="btnPrimary" text="Generate" />
+                    <Button fx:id="GenCopyBtn" mnemonicParsing="false" prefWidth="114.0" styleClass="btnPrimary" text="Copy" />
+                    <Button fx:id="GenSaveBtn" mnemonicParsing="false" prefWidth="112.0" styleClass="btnPrimary" text="Save" />
+                  </children>
+                </HBox>
+                <TextField fx:id="GenNameTF" layoutY="37.0" prefHeight="33.0" prefWidth="370.0" promptText="Pin name" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="15.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab fx:id="SavedTab" text="Saved Pins">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane hbarPolicy="NEVER" prefHeight="369.0" prefWidth="400.0" vbarPolicy="AS_NEEDED" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+                  <content>
+                    <FlowPane fx:id="spt" alignment="TOP_CENTER" prefHeight="-1.0" prefWidth="-1.0" />
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>
