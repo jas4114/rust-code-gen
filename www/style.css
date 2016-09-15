@@ -29,7 +29,7 @@ html, body{
   z-index: 5;
   font-weight:bold;
   font-size:18px;
-  vertical-align:center;
+  line-height: 70px;
   text-align:center;
   color: #ce422b;
   width: 100%;  
