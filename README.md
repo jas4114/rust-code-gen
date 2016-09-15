@@ -2,7 +2,7 @@
 A Simple 4 digit pin code generator for rust locks or anything else that needs 4 digit codes
 ===========================================
 Download builds 
-https://jas4114.github.io/rust-code-gen/
+https://jas4114.github.io/rust-pin-gen/
 ===========================================
 
 Humans are bad at making pin codes, like really bad most of us normaly just use a common code like 6969 or personal number like 4114. But this is a terrible practice especially on a game like rust where if someone guesses a code it could mean weeks of lost work. you can easily minimize that rist by using this simple utility.
