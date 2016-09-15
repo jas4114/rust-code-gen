@@ -36,9 +36,18 @@ html, body{
 }
 
 #content{
+  position:absoulute;
+  width:100%;
+  height:auto;
+}
+
+#inner{
   margin:auto;
-  margin-top:70px;
   background:#fff;
-   border:1px solid #cfcfcf;
-   width:80%;
+  border:1px solid #cfcfcf;
+  width:80%;
+  padding:5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
