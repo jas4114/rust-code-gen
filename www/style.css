@@ -77,5 +77,6 @@ a{
 @media screen and (max-width: 820px) {
   #header{
     font-size:16px;
+    background: url("https://jas4114.github.io/rust-pin-gen/www/rust-pin-logo-100x.png") no-repeat 2% center #fff;
   }
 }
