@@ -21,14 +21,14 @@
 		<mkdir dir="externalLibs" />
 	
 		<copy todir="externalLibs">
-			<fileset dir="C:\Users\Jason\workspace\rust-pin-gen">
+			<fileset dir="{path to your project}">
 				<filename name="commons-lang3-3.4.jar"/>
 			</fileset>
 		</copy>
 	
 		<mkdir dir="project" />
 		<copy todir="project">
-			<fileset dir="C:\Users\Jason\workspace\rust-pin-gen">
+			<fileset dir="{path to your project}">
 				<include name="src/**" />
 			</fileset>
 		</copy>
