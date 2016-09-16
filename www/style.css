@@ -77,7 +77,8 @@ a{
 footer{
   background:#fff;
   border-top:1px solid #cfcfcf;
-  position:absolute;
+  position:fixed;
+  padding:5px;
   bottom:0;
   width:100%;
   height:30px;
