@@ -19,4 +19,4 @@ The only dependancy is the commons random string util
 which you can get here https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/RandomStringUtils.html
 
 ===========================================
-Please be kind and excuse the messy code I've only been writing Java for a few months and the original version was wrote in about 5 hours plus this is my first public project! :)
+Please be kind and excuse the messy code I've only been writing Java for a few months and the original version was wrote in about 7 hours plus this is my first public project and it was mainly for fun, hopefully someone finds it useful! :)
